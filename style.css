@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+header {
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 1000px;   
+    align-items: center;
+    padding: 16px 0;
+}
+
+div .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 24px;
+}
+
+.header-links > ul > li {
+    color: #F9FAF8;
+    font-size: 0.8rem;
+
+}
+
+.hero-wrapper {
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.hero {
+    display: flex;
+    flex-basis: 1000px;
+    padding: 120px 0px;
+    gap: 24px;
+}
+.left h1, .left p, .right p {
+    color: white;
+}
+
+.left p {
+    color: #E5E7Eb;
+    
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7c818b;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+
+}
+.info {
+    display: flex;
+    align-items: center;
+    flex-basis: 1000px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.features {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 2px solid;
+    border-radius: 8px;
+}
