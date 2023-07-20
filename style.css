@@ -166,3 +166,30 @@ blockquote {
     text-align: right;
     font-weight: bold;
 }
+
+.cta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.cta {
+    background: #3882F6;
+    color: white;
+    flex-basis: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.cta .content {
+    flex-basis: 2;
+}
+
+.cta button {
+    flex-basis: 1;
+    border: 2px solid white;
+}
